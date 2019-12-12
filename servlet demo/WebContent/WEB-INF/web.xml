@@ -26,4 +26,23 @@
   	<servlet-name>pqr</servlet-name>
   	<url-pattern>/square</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>xyz</servlet-name>
+  	<servlet-class>com.servlet.ServletContextDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>xyz</servlet-name>
+  	<url-pattern>/</url-pattern>
+  </servlet-mapping>
+  
+  <context-param>
+  	<param-name>name</param-name>
+  	<param-value>Raj</param-value>
+  </context-param>
+  
+  <context-param>
+  	<param-name>phone</param-name>
+  	<param-value>samsung</param-value>
+  </context-param>
 </web-app>
