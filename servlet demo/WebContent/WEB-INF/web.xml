@@ -11,24 +11,6 @@
   </welcome-file-list>
   
   <servlet>
-  	<servlet-name>abc</servlet-name>
-  	<servlet-class>com.servlet.AddServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>abc</servlet-name>
-  	<url-pattern>/add</url-pattern>
-  </servlet-mapping>
-  
-  <servlet>
-  	<servlet-name>pqr</servlet-name>
-  	<servlet-class>com.servlet.SqServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>pqr</servlet-name>
-  	<url-pattern>/square</url-pattern>
-  </servlet-mapping>
-  
-  <servlet>
   	<servlet-name>xyz</servlet-name>
   	<servlet-class>com.servlet.ServletContextDemo</servlet-class>
   	
@@ -41,8 +23,8 @@
   		<param-name>phone</param-name>
   		<param-value>Oneplus</param-value>
   	</init-param>
-  	
   </servlet>
+  
   <servlet-mapping>
   	<servlet-name>xyz</servlet-name>
   	<url-pattern>/</url-pattern>
