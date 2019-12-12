@@ -9,6 +9,7 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
   <servlet>
   	<servlet-name>abc</servlet-name>
   	<servlet-class>com.servlet.AddServlet</servlet-class>
@@ -30,6 +31,17 @@
   <servlet>
   	<servlet-name>xyz</servlet-name>
   	<servlet-class>com.servlet.ServletContextDemo</servlet-class>
+  	
+  	<init-param>
+  		<param-name>name</param-name>
+  		<param-value>Rahul</param-value>
+  	</init-param>
+  	
+  	<init-param>
+  		<param-name>phone</param-name>
+  		<param-value>Oneplus</param-value>
+  	</init-param>
+  	
   </servlet>
   <servlet-mapping>
   	<servlet-name>xyz</servlet-name>
